@@ -61,7 +61,10 @@
         img {
             display: block;
             margin: 20px auto; /* زيادة المسافة حول الصور */
-            max-width: 100%;
+            width: 100%; /* عرض الصورة 100% من العنصر الحاوي */
+            max-width: 400px; /* الحد الأقصى لعرض الصورة */
+            height: 300px; /* تحديد ارتفاع الصورة */
+            object-fit: cover; /* الحفاظ على تناسب الصورة دون تشويه */
         }
         footer {
             text-align: center;
